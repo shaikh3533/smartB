@@ -11,3 +11,243 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+@media (max-width: 1250px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@font-face {
+  font-family: "norwester";
+  src: url("./Components/Assets/Fonts/norwester.regular.otf");
+}
+
+@font-face {
+  font-family: 'futura';
+  src: url("./Components/Assets/Fonts/futura/Futura-CondensedLight.otf");
+}
+
+.h-200vh {
+  height: 200vh !important;
+}
+
+.video-background {
+  /*  making the video fullscreen  */
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+
+.norwester {
+  font-style: normal;
+  font-family: 'norwester';
+  font-size: 9.0rem;
+}
+
+.futura {
+  font-style: normal;
+  font-family: 'norwester';
+  font-size: 8.0rem;
+}
+
+.small-heading {
+  font-style: normal;
+  font-family: sans-serif;
+  font-size: 3.7rem;
+}
+
+.w-580 {
+  max-width: 58.0rem;
+}
+
+/* .video {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.video1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+} */
+
+.img1 {
+  position: absolute;
+  z-index: 9;
+  width: 42.9rem !important;
+  height: 64.3rem !important;
+  right: 8.0rem;
+  bottom: -30vh;
+}
+
+.heading1 {
+  z-index: 9;
+  position: absolute;
+  width: 22.9rem !important;
+  width: 34.3rem !important;
+  left: 8.0rem;
+  color: white;
+  bottom: -35vh;
+}
+
+.line1 {
+  width: 100%;
+  height: .3rem;
+  background: white;
+  margin-top: 2.0rem;
+}
+
+.logoSize {
+  width: 4.2rem !important;
+  height: 4.2rem !important;
+  margin-left: 1.0rem !important;
+  margin-top: 2.0rem !important;
+}
+
+.portion1 {
+  opacity: 0.95;
+  position: relative;
+  height: 100vh;
+  object-fit: cover;
+  background-image: url(./Components/Assets/Images/bg2.png);
+}
+
+.portion2 {
+  opacity: 0.95;
+  position: relative;
+  height: 110vh;
+  object-fit: cover;
+  background-image: url(./Components/Assets/Images/bg2.png);
+}
+
+.portion3 {
+  opacity: 0.95;
+  position: relative;
+  height: 110vh;
+  object-fit: cover;
+  background-color: #bcbbbf !important;
+  /* background-image: url(./Components/Assets/Images/bg2.png); */
+  /* z-index: 1; */
+}
+
+.portion4 {
+  opacity: 0.95;
+  position: relative;
+  background-image: url(./Components/Assets/Images/bg4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* z-index: 1; */
+}
+
+.portion5 {
+  opacity: 0.95;
+  position: relative;
+  height: 100vh;
+  background-image: url(./Components/Assets/Images/bg4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* z-index: 1; */
+}
+
+.height-90 {
+  height: 90vh;
+  margin-top: 10vh !important;
+}
+
+.cloud img {
+  border-radius: 50%;
+  width: 30rem;
+  height: 30rem;
+  object-fit: cover;
+  margin-top: 10rem;
+  filter: brightness(0.5);
+}
+
+.factory img {
+  border-radius: 50%;
+  width: 30rem;
+  margin-top: 20rem;
+  height: 30rem;
+  object-fit: cover;
+  filter: brightness(0.5);
+}
+
+.centered {
+  position: absolute !important;
+  top: calc(30rem + 25%);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.img-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.inventory {
+  border-radius: 50%;
+  margin-top: 30rem;
+  width: 30rem;
+  height: 30rem;
+  object-fit: cover;
+  filter: brightness(0.5);
+}
+
+.message-img {
+  background-color: rgba(169, 182, 226, 0.24) !important;
+  height: 70vh;
+  border-bottom-left-radius: 35rem;
+  border-top-left-radius: 35rem;
+}
+
+.building-img {
+  background-color: rgba(169, 182, 226, 0.24) !important;
+  height: 70vh;
+  border-bottom-left-radius: 35rem;
+  border-top-left-radius: 35rem;
+}
+
+.about-img {
+  background-color: rgba(169, 182, 226, 0.24) !important;
+  height: 70vh;
+  border-bottom-right-radius: 35rem;
+  border-top-right-radius: 35rem;
+}
+
+.fs-32 {
+  font-size: 3.2rem;
+}
+
+.fs-24 {
+  font-size: 2.4rem;
+}
+
+.btn-theme {
+  width: 30.0rem !important;
+  height: 5rem !important;
+  font-size: 1.3rem;
+  color: white;
+  border-radius: 25px;
+  border: 0.4rem solid white;
+  background: transparent;
+}
